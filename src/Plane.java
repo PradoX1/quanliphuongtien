@@ -1,4 +1,4 @@
-public class Plane extends Method{
+public class Plane extends Vehicle{
     private double street;
     private double velocity;
     public Plane(double street, double velocity) {

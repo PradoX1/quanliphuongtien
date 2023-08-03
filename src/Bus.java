@@ -1,4 +1,4 @@
-public class Bus extends Method {
+public class Bus extends Vehicle {
     private double street;
     private double velocity;
 

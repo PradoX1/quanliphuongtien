@@ -1,4 +1,4 @@
-public class Train extends Method{
+public class Train extends Vehicle{
     private double street;
     private double velocity;
 
