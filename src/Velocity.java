@@ -3,11 +3,12 @@ public enum Velocity {
     TRAIN(40),
     AIRPLANE(80);
 
-    private final int speedValue;
-    Velocity(int speedValue) {
+    private final double speedValue;
+
+    Velocity(double speedValue) {
         this.speedValue = speedValue;
     }
-    public int getSpeedValue() {
+    public double getSpeedValue() {
         return speedValue;
     }
 }

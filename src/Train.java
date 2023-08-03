@@ -1,8 +1,8 @@
-public class Train extends caculatedTime {
+public class Train extends Method{
     private double street;
-    private int velocity;
+    private double velocity;
 
-    public Train(double street, int velocity) {
+    public Train(double street, double velocity) {
         this.street = street;
         this.velocity = velocity;
     }

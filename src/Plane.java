@@ -1,8 +1,7 @@
-public class Plane extends caculatedTime {
+public class Plane extends Method{
     private double street;
-    private int velocity;
-
-    public Plane(double street, int velocity) {
+    private double velocity;
+    public Plane(double street, double velocity) {
         this.street = street;
         this.velocity = velocity;
     }
