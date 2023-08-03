@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class caculatedTime {
+public abstract class  caculatedTime {
+public abstract double caculateTime();
+public abstract void printInfo();
 }
