@@ -15,13 +15,9 @@ public class Main {
         String vehicle = sc.nextLine().toLowerCase(Locale.ROOT);
         if (vehicle.contains("bus") == true) {
             vehicle = "bus";
-        }
-        if (vehicle.contains("train") == true) {
-            vehicle = "train";
-        }
-        if (vehicle.contains("plane") == true) {
-            vehicle = "plane";
-        }
+        } else if (vehicle.contains("train")==true) {
+            vehicle="train";
+        } else vehicle="plane";
         System.out.println("Mời bạn nhập quãng đường muốn đi: S= "+" km");
         double street = Double.parseDouble(sc.nextLine());
         switch (vehicle) {
