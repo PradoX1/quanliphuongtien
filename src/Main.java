@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        double velocity = 0;
+        double velocity ;
         Scanner sc = new Scanner(System.in);
         System.out.println("Chúng tôi có các loại phương tiện sau: "+"Bus, Train, Plane.");
         System.out.println("Mời bạn nhập phương tiện muốn đi : ");
